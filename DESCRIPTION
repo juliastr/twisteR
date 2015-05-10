@@ -1,0 +1,16 @@
+Package: twisteR
+Title: Play the Party Game Twister Even When You Don't Have the Game Essentials at Hand.
+Version: 0.1
+Authors@R: person("Julia", "Strasheim", , "julia.strasheim@giga-hamburg.de",
+                  role = c("aut", "cre"))
+           person("David", "Benček", email = "david.bencek@ifw-kiel.de",
+                  role = c("aut", "cre"))
+Description: An R package to play the party game Twister without the spinner or the game mat.
+    All you need is a common understanding of all players, where the four colours - red, green,
+    blue and yellow - are located on the floor. A rug might help. The package then provides you
+    with the play instructions so you can start placing your limbs.
+Depends: R (>= 3.1.2)
+License: GPL-3
+LazyData: true
+Encoding: UTF-8
+Imports: ggplot2
